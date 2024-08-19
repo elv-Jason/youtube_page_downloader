@@ -16,7 +16,6 @@ python videos.py
 
 ```
 python youtube_extractor.py <YouTube_Channel_URL>
-
 ```
 
 
