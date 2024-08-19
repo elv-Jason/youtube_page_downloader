@@ -1,4 +1,4 @@
-# youtube_page_extractor
+# youtube_page_downloader
 
 This extracts video links and video names from multiple youtube channel's video page.
 
@@ -11,6 +11,7 @@ pip install -r requirements.txt
 clear
 python videos.py
 ```
+# 1) Extract Page
 
 ## Command
 
@@ -28,3 +29,13 @@ You can keep your terminal open on the side to see how much time is remaining fo
 
 
 A new file will be created when the links are extracted. You can copy paste it directly in database or excel and it will retain it's structure since it has a tab character in between then.
+
+# 2) Download Videos
+
+Based on the extracted information from the YouTube page, the script will download and store the MP4 files in the ./videos directory.
+
+## Command
+
+```
+python download_videos.py 
+```
